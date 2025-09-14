@@ -63,7 +63,7 @@ module.exports = function ({ api, models }) {
                         const checktt = JSON.parse(fs.readFileSync(checkttDataPath + checkttFile));
                         let storage = [], count = 1;
                         for (const item of checktt.week) {
-                            const userName = await Users.getNameUser(item.id) || 'Priyansh Hun Yar';
+                            const userName = await Users.getNameUser(item.id) || 'The Neha Thakur';
                             const itemToPush = item;
                             itemToPush.name = userName;
                             storage.push(itemToPush);
