@@ -2,6 +2,6 @@
 
 * npm install all package.json in termux
 
-* canvas npm publish code
-
+* canvas npm publish 
+* free time upgrade this bot
 * ..............
